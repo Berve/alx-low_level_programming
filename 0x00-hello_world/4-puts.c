@@ -1,4 +1,4 @@
-#include <stdio.sh>
+#include <stdio.h>
 /**
  * main - Enter code
  * Return: always 0
