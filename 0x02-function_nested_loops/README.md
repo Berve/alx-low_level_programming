@@ -1,1 +1,1 @@
-__0x02. C - Functions, nested loops__
+0x02. C - Functions, nested loops
