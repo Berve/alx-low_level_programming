@@ -2,14 +2,12 @@
 #include "main.h"
 
 /**
- * main - entry point
- *
- * Description: prints the numbers 1 - 100 
- * Fizz for multiples of 3, Buzz for multiples of 5,
- * and FizzBuzz for multiples of both
- *
- * Return: always 0
- */
+* main - entry point
+* Description: prints the numbers 1
+* Fizz for multiples of 3, Buzz foltiples of 5,
+* and FizzBuzz for multiples of boh
+* Return: always 0
+*/
 int main(void)
 {
 	int i;
