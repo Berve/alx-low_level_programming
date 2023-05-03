@@ -1,7 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_array - a function that prints n elements of an array of integers, followed by a new line.
+ * print_array - a function that prints n elements of an
+ * array of integers, followed by a new line.
  * @a: 1st int
  * @n: 2nd int
  * Return: 0 is success
