@@ -3,15 +3,15 @@
 
 /**
  * _strlen - a function that returns the length of a string.
- * @a: character
+ * @s: character
  * Return: void
  */
 
-int _strlen(char *p)
+int _strlen(char *s)
 {
 	int n = 0;
 
-	for (; *p++;)
+	for (; *s++;)
 	n++;
 	return (n);
 }
