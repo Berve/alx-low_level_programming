@@ -3,7 +3,7 @@
 /**
  * _atoi - a function that convert a string to an integer.
  * @s: The pointer to be converted
- * Return: A integer
+ * Return: integer
  */
 int _atoi(char *s)
 {
@@ -34,6 +34,6 @@ int _atoi(char *s)
 		c++;
 	}
 
-	nb*= min;
-	return (nb;
+	nb *= min;
+	return (nb);
 }
