@@ -5,13 +5,13 @@
  * _strcat - a function that concatenates two strings.
  * @dest: A character
  * @src: A character
- * Return: 
+ * Return: i
  */
 char *_strcat(char *dest, char *src)
 {
 	char *i = dest;
 
-	while(*dest != '\0')
+	while (*dest != '\0')
 	{
 		dest++;
 	}
@@ -27,4 +27,3 @@ char *_strcat(char *dest, char *src)
 
 	return (i);
 }
-	
