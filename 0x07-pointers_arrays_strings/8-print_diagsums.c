@@ -12,12 +12,12 @@ void print_diagsums(int *a, int size)
 	for (b = 0; b < size; b++)
 	{
 		i = (b * size) + b;
-		j += *(a + b);
+		j += *(a + i);
 	}
 	for (c = 0; c < size; c++)
 	{
 		b = (c * size) + (size - 1 - c);
-		k += *(a + b);
+		k += *(a + i);
 	}
 	printf("%i, %i\n", i, k);
 }
