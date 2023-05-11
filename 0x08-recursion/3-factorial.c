@@ -3,13 +3,12 @@
 
 /**
  * factorial - function that returns the factorial of a given number.
+ * @n: Parameter
  * Return: -1 or 1
  */
 
 int factorial(int n)
 {
-	int n;
-
 	if (n < 0)
 	{
 		return (-1);
