@@ -2,16 +2,16 @@
 #include <stdlib.h>
 
 /**
- * main - adds positive numbers.
+ * main - This function is to add positive numbers.
  * @argc: argument count
- * @argv: arguments
+ * @argv: argument array
  *
  * Return: 0
  */
 int main(int argc, char **argv)
 {
-	int i, n, sum = 0;
-	char *flag;
+	int i, n, add = 0;
+	char *test;
 
 	if (argc < 2)
 	{
@@ -21,18 +21,18 @@ int main(int argc, char **argv)
 
 	for (i = 1; argv[i]; i++)
 	{
-		n = strtol(argv[i], &flag, 10);
-		if (*flag)
+		n = strtol(argv[i], &test, 10);
+		if (*test)
 		{
 			printf("Error\n");
 			return (1);
 		}
 		else
 		{
-			sum += n;
+			add += n;
 		}
 	}
-	printf("%d\n", sum);
+	printf("%d\n", add);
 
 	return (0);
 }
