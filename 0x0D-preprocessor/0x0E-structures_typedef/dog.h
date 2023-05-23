@@ -8,7 +8,8 @@
  * @owner: a pointer to a chararcter
  */
 
-struct dog{
+struct dog
+{
 	char *name;
 	float age;
 	char *owner;
