@@ -1,24 +1,24 @@
-i#include "variadic_functions.h"
+#include "variadic_functions.h"
 
 /**
- * print_all - a function that prints all
+ * print_all - this functions prints all
  * of the arguments when specified
- * @format: this specifies the necessary operations
+ * @format: specifies the necessary operations
  * Return: void
  */
 
 void print_all(const char * const format, ...)
 {
-	int j;
+	int i;
 	int flag;
 	char *str;
 	va_list a_list;
 
 	va_start(a_list, format);
-	j = 0;
-	while (format != NULL && format[j] != '\0')
+	i = 0;
+	while (format != NULL && format[i] != '\0')
 	{
-		switch (format[j])
+		switch (format[i])
 		{
 			case 'c':
 				printf("%c", va_arg(a_list, int));
@@ -43,9 +43,9 @@ void print_all(const char * const format, ...)
 				flag = 1;
 				break;
 		}
-		if (format[j + 1] != '\0' && flag == 0)
+		if (format[i + 1] != '\0' && flag == 0)
 			printf(", ");
-		j++;
+		i++;
 	}
 	printf("\n");
 	va_end(a_list);
